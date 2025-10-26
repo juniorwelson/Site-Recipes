@@ -1,0 +1,25 @@
+.navbar {
+  transition: all 0.3s ease;
+}
+
+.nav-link.active {
+  border-bottom: 3px solid rgb(253, 253, 253);
+ 
+}
+
+
+.nav-link:hover {
+  color: #fff !important;
+  opacity: 0.8;
+}
+
+.navbar-toggler{
+    color: #fff !important;
+}
+.container-fluid {
+   background-color: #ff0202 !important;  
+}
+.bg-body-tertiary {
+  padding-bottom: 0 !important;
+  padding-top: 0 !important;
+}
