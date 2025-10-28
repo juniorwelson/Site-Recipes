@@ -5,7 +5,7 @@ const Navbar = ({ branding , home,recipes}) => {
   return (
     <nav className="navbar navbar-expand-lg bg-body-tertiary  mt-0 mb-0">
       <div className="container-fluid ">
-        <Link className="navbar-brand ms-5 text-white fw-bold" to="/">
+        <Link className="navbar-brand ms-5  fw-bold" to="/">
           {branding}
         </Link>
 
@@ -28,8 +28,8 @@ const Navbar = ({ branding , home,recipes}) => {
               <NavLink
                 to="/"
                 className={({ isActive }) =>
-                  `nav-link ${
-                    isActive ? "active fw-bold text-white" : "text-light"
+                  `nav-link fw-bold ${
+                    isActive ? "text-success" : "text-secondary"
                   }`
                 }
               >
@@ -41,8 +41,8 @@ const Navbar = ({ branding , home,recipes}) => {
               <NavLink
                 to="/recipes"
                 className={({ isActive }) =>
-                  `nav-link ${
-                    isActive ? "active fw-bold text-white" : "text-light"
+                  `nav-link fw-bold ${
+                    isActive ? "text-success" : "text-secondary"
                   }`
                 }
               >
@@ -51,6 +51,7 @@ const Navbar = ({ branding , home,recipes}) => {
             </li>
           </ul>
         </div>
+        
       </div>
     </nav>
   );
