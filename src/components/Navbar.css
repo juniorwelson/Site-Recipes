@@ -32,3 +32,11 @@
   padding-bottom: 0 !important;
   padding-top: 0 !important;
 }
+
+@media (max-width:450px){
+  .navbar-brand{
+  color: rgb(35, 213, 32);
+  font-size: 2rem;
+   transition: 0.5s;
+}
+}
