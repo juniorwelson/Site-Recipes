@@ -1,0 +1,62 @@
+.container-box {
+   background-color: aliceblue;
+}
+#text-main{
+    font-size: 6rem;
+    left: 10%;
+    position: absolute;
+    color: rgb(255, 0, 0);
+    font-weight: bold;
+    width: 50%;
+    
+}
+
+#logo-main{
+   margin-left: 25%; 
+   width: 100%;
+}
+span{
+   color:  #f0b106;
+}
+
+
+@media (max-width:450px){
+  
+#text-main{
+    font-size: 2rem;
+    margin-left: 5%;
+    position: relative;
+    color: rgb(255, 0, 0);
+    font-weight: bold;
+    width: 85%;
+    bottom: 0%;
+}
+
+#logo-main{
+   margin-left: 0%; 
+   width: 100%;
+}
+
+ 
+}
+
+
+@media (max-width:600px) and (min-width:450px){
+  
+#text-main{
+    font-size: 2rem;
+    margin-left: 0%;
+    position: relative;
+    color: rgb(255, 0, 0);
+    font-weight: bold;
+    width: 85%;
+    
+}
+
+#logo-main{
+   margin-left: 0%; 
+   width: 100%;
+}
+
+ 
+}
