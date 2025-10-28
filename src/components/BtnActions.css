@@ -1,0 +1,78 @@
+.links-action {
+  width: 50%;
+  margin-left: 10%;
+  margin-top: -5%;
+}
+
+.links-action a {
+  padding: 10px;
+  margin-left: 10px;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 1.2rem;
+  color: #fff;
+  transition: 0.5s;
+}
+.lupa, .salada-icon{
+  padding-left: 5px;
+  display: inline-block; 
+  transition: transform 0.3s ease; 
+}
+
+
+
+
+.lupa:hover,
+.salada-icon:hover {
+  transform: scale(1.2); /* aumenta 20% */
+}
+.link{
+    background-color: #47db34;
+    border-radius: 10px;
+}
+.link:hover{
+     background-color: #ffffff;
+}
+.links-action a:hover{
+    color: #47db34;
+}
+
+@media (max-width:450px){
+  .links-action {
+  width: 70%;
+  margin-left: 20%;
+  margin-top: 15%;
+}
+
+
+.links-action a {
+  padding: 10px;
+  margin-left:0;
+  margin-top: 10px;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 1rem;
+  color: #fff;
+  transition: 0.5s;
+}
+}
+
+@media (max-width:600px) and (min-width:450px){
+   .links-action {
+  width: 70%;
+  margin-left: 10%;
+  margin-top: 15%;
+}
+
+
+.links-action a {
+  padding: 10px;
+  margin-left:10px;
+  margin-top: 10px;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 1rem;
+  color: #fff;
+  transition: 0.5s;
+}
+}
