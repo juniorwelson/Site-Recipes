@@ -1,0 +1,137 @@
+.search-bar {
+  background-color: rgb(35, 213, 32);
+  margin-top: 10%;
+  margin-left: 10%;
+  padding: 10px;
+  width: 50%;
+  border-radius: 10px;
+  position: relative;
+}
+
+.search-bar label {
+  color: #fff;
+width: 100%;
+  font-weight: bold;
+  font-size: 1.2rem;
+}
+
+.search-bar input {
+    width: 60%;
+  margin-left: 20px;
+  border-radius: 10px;
+  outline: none;
+  border: none;
+padding-top: 10px;
+padding-bottom: 10px;
+  padding-left: 20px;
+  padding-right: 50px;
+}
+.search-bar input::placeholder {
+  font-style: italic;
+}
+
+.search-bar img {
+  position: absolute;
+ right: 40px;
+  cursor: pointer;
+  top: 30%;
+}
+
+
+@media (max-width:450px){
+    .search-bar {
+  margin-left: 5%;
+  padding: 10px;
+  width: 90%;
+  position: relative;
+}
+
+.search-bar label {
+  padding-left: 50px;
+  font-size: 1rem;
+}
+
+.search-bar input {
+    width: 90%;
+  margin-left: 0px;
+  
+padding-top: 10px;
+padding-bottom: 10px;
+  padding-left: 20px;
+  padding-right: 50px;
+}
+
+
+.search-bar img {
+  position: absolute;
+ right: 50px;
+  cursor: pointer;
+  top: 50%;
+}
+}
+
+@media (max-width:600px) and (min-width:450px){
+      .search-bar {
+  margin-left: 5%;
+  padding: 10px;
+  width: 90%;
+  position: relative;
+}
+
+.search-bar label {
+  padding-left: 50px;
+  font-size: 1rem;
+}
+
+.search-bar input {
+    width: 90%;
+  margin-left: 0px;
+  
+padding-top: 10px;
+padding-bottom: 10px;
+  padding-left: 20px;
+  padding-right: 50px;
+}
+
+
+.search-bar img {
+  position: absolute;
+ right: 60px;
+  cursor: pointer;
+  top: 50%;
+} 
+}
+
+
+@media (max-width:800px) and (min-width:600px){
+      .search-bar {
+  margin-left: 5%;
+  padding: 10px;
+  width: 90%;
+  position: relative;
+}
+
+.search-bar label {
+  padding-left: 50px;
+  font-size: 1rem;
+}
+
+.search-bar input {
+    width: 90%;
+  margin-left: 0px;
+  
+padding-top: 10px;
+padding-bottom: 10px;
+  padding-left: 20px;
+  padding-right: 50px;
+}
+
+
+.search-bar img {
+  position: absolute;
+ right: 70px;
+ padding-left: 10px;
+  cursor: pointer;
+  top: 50%;
+} 
+}
