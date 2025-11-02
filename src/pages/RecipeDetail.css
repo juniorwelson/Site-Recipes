@@ -4,3 +4,41 @@
 .recipe-detail{
     background-color: rgb(114, 247, 5);
 }
+
+.ingredients, .steps , .time{
+
+}
+
+@media (max-width:450px){
+  .picture-main {
+  margin-left: 10%;
+}
+
+.ingredients, .steps , .time{
+  margin-left: 10px;
+  width: 100%;
+}
+}
+
+@media (max-width:600px) and (min-width:450px){
+  .picture-main {
+  margin-left:20%;
+}
+.ingredients, .steps , .time{
+  margin-left: 10px;
+  width: 100%;
+}
+
+}
+
+@media (max-width:800px) and (min-width:600px){
+  .picture-main {
+  margin-left: 30%;
+}
+
+.ingredients, .steps , .time{
+  margin-left: 10px;
+  width: 100%;
+}
+
+}
