@@ -132,7 +132,7 @@ const DataRecipes = [
   {
     id: 7,
     name: "Salada simples",
-    image: "/img/food-salads.png",
+    image: "/img/saladaRecipe.jpg",
     message: "Clique para ver os ingredientes e preparo completo!",
     tipo: "salada",
     ingredientes: [
