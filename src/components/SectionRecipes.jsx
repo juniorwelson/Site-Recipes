@@ -1,6 +1,6 @@
 import SearchRecipes from "./SearchRecipes";
 import "./SectionRecipes.css";
-import DataRecipes from "../data/DataRecipes";
+
 import { useGetRecipes } from "../hooks/useGetRecipes";
 import { Link } from "react-router-dom";
 const SectionRecipes = () => {

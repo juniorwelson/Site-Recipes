@@ -24,7 +24,7 @@
 
 .lupa:hover,
 .salada-icon:hover {
-  transform: scale(1.2); /* aumenta 20% */
+  transform: scale(1.2); 
 }
 .link{
     background-color: #47db34;

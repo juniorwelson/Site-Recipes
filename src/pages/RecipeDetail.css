@@ -4,10 +4,19 @@
 .recipe-detail{
     background-color: rgb(114, 247, 5);
 }
-
-.ingredients, .steps , .time{
-
+.pdf-mode {
+  background: white !important;
+  color: black !important;
 }
+
+.pdf-mode h1,
+.pdf-mode h2,
+.pdf-mode li,
+.pdf-mode p {
+  color: black !important;
+}
+
+
 
 @media (max-width:450px){
   .picture-main {
