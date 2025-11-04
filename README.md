@@ -15,7 +15,7 @@ O foco do projeto é oferecer uma experiência rápida, leve e organizada para o
 - 📄 **html2pdf.js** — exportação das receitas em PDF  
 
 ---
-
+```
 ## 📁 Estrutura do Projeto
 Site-recipes/
 ├── public/
@@ -38,7 +38,7 @@ Site-recipes/
 ├── package.json
 ├── vite.config.js
 └── README.md
-
+```
 ---
 
 ## 🔍 Funcionalidades
