@@ -40,7 +40,7 @@ Site-recipes/
 └── README.md
 ```
 ---
-
+```
 ## 🔍 Funcionalidades
 
 ✅ Pesquisa dinâmica de receitas por nome   
