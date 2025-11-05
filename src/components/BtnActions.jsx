@@ -8,7 +8,7 @@ const BtnActions = () => {
       <a href="#foods" className="link ">
         Ache Suas Receitas
         <img
-          src="/Site-Recipes/public/img/lupa.png"
+          src="/Site-Recipes/img/lupa.png"
           className="lupa"
           alt="lupa"
         />
@@ -17,7 +17,7 @@ const BtnActions = () => {
       <a href="/recipes" className="link ">
         Ver Todas as Receitas
         <img
-          src="/Site-Recipes/public/img/salada-icon.png"
+          src="/Site-Recipes/img/salada-icon.png"
           className="salada-icon"
           alt="salada-icon"
         />

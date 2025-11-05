@@ -7,7 +7,7 @@ const LinkOptions = ({ handlePdfRecipe }) => {
       <a href="/recipes" className="fw-bold">
         Voltar as Receitas
         <img
-          src="/Site-Recipes/public/img/salada-icon.png"
+          src="/Site-Recipes/img/salada-icon.png"
           className="salada-icon"
           alt="salada-icon"
         />
@@ -16,7 +16,7 @@ const LinkOptions = ({ handlePdfRecipe }) => {
       <button onClick={handlePdfRecipe} id="btn-downlod " className="fw-bold">
         Baixar Receita{" "}
         <img
-          src="/Site-Recipes/public/img/logo-pdf.png"
+          src="/Site-Recipes/img/logo-pdf.png"
           alt="logo pdf"
           id="logo-pdf"
         />

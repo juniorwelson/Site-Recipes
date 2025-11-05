@@ -13,7 +13,7 @@ const Welcome = () => {
           </div>
 
           <img
-            src="/Site-Recipes/public/img/food-salads.png"
+            src="/Site-Recipes/img/food-salads.png"
             alt=" logo-main"
             id="logo-main"
           />

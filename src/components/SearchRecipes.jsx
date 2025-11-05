@@ -14,7 +14,7 @@ const SearchRecipes = ({SearchText,handleChangeText}) => {
           onChange={handleChangeText}
         />
         <img
-          src="/Site-Recipes/public/img/lupa.png"
+          src="/Site-Recipes/img/lupa.png"
           alt="lupa"
           className="logo-lupa"
         />
