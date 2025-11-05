@@ -16,13 +16,13 @@ import "./App.css";
 
 function App() {
   return (
-    <BrowserRouter>
+    <BrowserRouter basename="/Site-Recipes">
       <Navbar branding="DevReceitas" home="Home" recipes="Receitas" />
 
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/recipes" element={<Recipes />} />
-       
+
         <Route path="/recipes/:id" element={<RecipeDetail />} />
       </Routes>
       <FooterRecipe />
