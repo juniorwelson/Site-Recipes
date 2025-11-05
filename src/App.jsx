@@ -1,6 +1,5 @@
 // importando componentes
 import Navbar from "./components/Navbar";
-
 import FooterRecipe from "./components/FooterRecipe";
 
 // importando pages
