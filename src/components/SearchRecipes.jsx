@@ -1,7 +1,7 @@
 import "./SearchRecipes.css";
 const SearchRecipes = ({SearchText,handleChangeText}) => {
 
-  return (  
+  return (
     <div className="search-bar d-flex justify-content-center aligns-center">
       <label htmlFor="bar">
         Digite o Nome de sua Receita
@@ -13,7 +13,11 @@ const SearchRecipes = ({SearchText,handleChangeText}) => {
           value={SearchText}
           onChange={handleChangeText}
         />
-        <img src="/img/lupa.png" alt="lupa" className="logo-lupa" />
+        <img
+          src="/Site-Recipes/public/img/lupa.png"
+          alt="lupa"
+          className="logo-lupa"
+        />
       </label>
     </div>
   );

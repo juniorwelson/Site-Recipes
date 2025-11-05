@@ -7,13 +7,17 @@ const BtnActions = () => {
     <div className="links-action d-flex flex-wrap  ">
       <a href="#foods" className="link ">
         Ache Suas Receitas
-        <img src="/img/lupa.png" className="lupa" alt="lupa" />
+        <img
+          src="/Site-Recipes/public/img/lupa.png"
+          className="lupa"
+          alt="lupa"
+        />
       </a>
 
       <a href="/recipes" className="link ">
         Ver Todas as Receitas
         <img
-          src="/img/salada-icon.png"
+          src="/Site-Recipes/public/img/salada-icon.png"
           className="salada-icon"
           alt="salada-icon"
         />

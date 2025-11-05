@@ -12,7 +12,11 @@ const Welcome = () => {
             </h1>
           </div>
 
-          <img src="/img/food-salads.png" alt=" logo-main" id="logo-main" />
+          <img
+            src="/Site-Recipes/public/img/food-salads.png"
+            alt=" logo-main"
+            id="logo-main"
+          />
         </div>
         <div className="actions">
           <BtnActions />

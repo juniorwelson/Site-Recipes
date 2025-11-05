@@ -3,7 +3,7 @@ const DataRecipes = [
     id: 1,
     name: "Arroz soltinho",
     message: "Clique para ver os ingredientes e preparo completo!",
-    image: "/img/rice-picture.jpg",
+    image: "/Site-Recipes/public/img/rice-picture.jpg",
 
     tipo: "acompanhamento",
     ingredientes: [
@@ -26,7 +26,7 @@ const DataRecipes = [
     id: 2,
     name: "Feijão simples",
     tipo: "acompanhamento",
-    image: "/img/beans-picture.jpg",
+    image: "/Site-Recipes/public/img/beans-picture.jpg",
     linkView: "",
     message: "Clique para ver os ingredientes e preparo completo!",
     ingredientes: [
@@ -48,7 +48,7 @@ const DataRecipes = [
   {
     id: 3,
     name: "Omelete simples",
-    image: "/img/omelet-picture.jpg",
+    image: "/Site-Recipes/public/img/omelet-picture.jpg",
     message: "Clique para ver os ingredientes e preparo completo!",
     tipo: "lanche",
     ingredientes: [
@@ -69,7 +69,7 @@ const DataRecipes = [
   {
     id: 4,
     name: "Macarrão com molho de tomate",
-    image: "/img/pasta-picture.jpg",
+    image: "/Site-Recipes/public/img/pasta-picture.jpg",
     message: "Clique para ver os ingredientes e preparo completo!",
     tipo: "principal",
     ingredientes: [
@@ -91,7 +91,7 @@ const DataRecipes = [
   {
     id: 5,
     name: "Purê de batata",
-    image: "/img/potato-picture.jpg",
+    image: "/Site-Recipes/public/img/potato-picture.jpg",
     message: "Clique para ver os ingredientes e preparo completo!",
     tipo: "acompanhamento",
     ingredientes: [
@@ -112,7 +112,7 @@ const DataRecipes = [
   {
     id: 6,
     name: "Frango grelhado",
-    image: "/img/grilledChicken-picture.jpg",
+    image: "/Site-Recipes/public/img/grilledChicken-picture.jpg",
     message: "Clique para ver os ingredientes e preparo completo!",
     tipo: "principal",
     ingredientes: [
@@ -132,7 +132,7 @@ const DataRecipes = [
   {
     id: 7,
     name: "Salada simples",
-    image: "/img/saladaRecipe.jpg",
+    image: "/Site-Recipes/public/img/saladaRecipe.jpg",
     message: "Clique para ver os ingredientes e preparo completo!",
     tipo: "salada",
     ingredientes: [
@@ -151,7 +151,7 @@ const DataRecipes = [
   {
     id: 8,
     name: "Bife acebolado",
-    image: "/img/beef-picture.jpg",
+    image: "/Site-Recipes/public/img/beef-picture.jpg",
     message: "Clique para ver os ingredientes e preparo completo!",
     tipo: "principal",
     ingredientes: [
@@ -173,7 +173,7 @@ const DataRecipes = [
     id: 9,
     name: "Farofa simples",
     message: "Clique para ver os ingredientes e preparo completo!",
-    image: "/img/farofa-picture.jpg",
+    image: "/Site-Recipes/public/img/farofa-picture.jpg",
     tipo: "acompanhamento",
     ingredientes: [
       "2 colheres de sopa de manteiga",
@@ -192,7 +192,7 @@ const DataRecipes = [
   {
     id: 10,
     name: "Bolo de cenoura",
-    image: "/img/carrotCake-picture.jpg",
+    image: "/Site-Recipes/public/img/carrotCake-picture.jpg",
     message: "Clique para ver os ingredientes e preparo completo!",
     tipo: "sobremesa",
     ingredientes: [
