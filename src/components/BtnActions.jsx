@@ -1,5 +1,5 @@
 import "./BtnActions.css"
-
+import { Link } from "react-router-dom";
 
 
 const BtnActions = () => {
@@ -14,14 +14,14 @@ const BtnActions = () => {
         />
       </a>
 
-      <a href="/recipes" className="link ">
+      <Link to="/recipes" className="link ">
         Ver Todas as Receitas
         <img
           src="/Site-Recipes/img/salada-icon.png"
           className="salada-icon"
           alt="salada-icon"
         />
-      </a>
+      </Link>
     </div>
   );
 }
