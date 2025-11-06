@@ -4,21 +4,14 @@ import BtnActions from "./BtnActions";
 const Welcome = () => {
     return (
       <div className="container-box mt-1 ">
-        <div className="main-content d-flex justify-content-center align-items-center flex-wrap">
-          <div className="main-title">
-            <h1 id="text-main">
-              “Todo mundo pode fazer comida caseira incrível —
-              <span>você também!</span> ”
-            </h1>
-          </div>
-
-          <img
-            src="/Site-Recipes/img/food-salads.png"
-            alt=" logo-main"
-            id="logo-main"
-          />
+        <div className="main-title ">
+          <h1 id="text-main">“Seja Seu Próprio MasterChef — ”</h1>
+          <p className="subtitle">
+            Crie, cozinhe, experimente e aproveite cada receita.
+          </p>
         </div>
-        <div className="actions">
+
+        <div className="actions ">
           <BtnActions />
         </div>
       </div>

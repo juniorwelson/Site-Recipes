@@ -1,83 +1,100 @@
 .container-box {
-   background-color: aliceblue;
-}
-#text-main{
-    font-size: 6rem;
-    left: 10%;
-    position: absolute;
-    color: rgb(255, 0, 0);
-    font-weight: bold;
-    width: 50%;
-    
+  background-image: url("/Site-Recipes/img/logo-second.jpg");
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  padding: 40px;
 }
 
-#logo-main{
-   margin-left: 25%; 
-   width: 100%;
-}
-span{
-   color:  #f0b106;
+#text-main {
+  font-size: 6rem;
+  color: rgb(255, 251, 251);
+  font-weight: bold;
+  text-align: center;
+  text-shadow: 0 4px 15px rgba(0, 0, 0, 0.9);
 }
 
+.subtitle {
+  font-size: 1.5rem;
+  color: #fcba02;
+  font-weight: bold;
+  text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.8);
+  background: rgba(0, 0, 0, 0.4);
+  width: fit-content;
+  border-radius: 10px;
+  padding: 5px 12px;
+  margin: 10px auto;
+  text-align: center;
+}
 
-@media (max-width:450px){
-  
-#text-main{
+.actions {
+  margin-top: auto;
+  display: flex;
+  justify-content: center;
+  padding-bottom: 30px;
+}
+
+@media (max-width: 450px) {
+  #text-main {
     font-size: 2rem;
-    margin-left: 5%;
-    position: relative;
-    color: rgb(255, 0, 0);
-    font-weight: bold;
-    width: 85%;
-    bottom: 0%;
-}
+    padding-top: 5%;
+  }
+  .subtitle {
+    font-size: 1rem;
 
-#logo-main{
-   margin-left: 0%; 
-   width: 100%;
-}
-
- 
-}
-
-
-@media (max-width:600px) and (min-width:450px){
-  
-#text-main{
-    font-size: 2rem;
+    margin-top: 10px;
     margin-left: 0%;
-    position: relative;
-    color: rgb(255, 0, 0);
-    font-weight: bold;
-    width: 85%;
-    
-}
+    text-align: center;
+    text-shadow: 2px 2px 8px rgba(249, 242, 242, 0.8);
+    background: rgba(31, 30, 30, 0.4);
+  }
 
-#logo-main{
-   margin-left: 0%; 
-   width: 100%;
-}
-
- 
-}
-
-@media (max-width:800px) and (min-width:600px){
-  
-#text-main{
-    font-size: 2.5rem;
+  .actions {
     margin-left: 0%;
-    position: relative;
-    color: rgb(255, 0, 0);
-    font-weight: bold;
-    width: 85%;
-    
+  }
 }
 
-#logo-main{
-   margin-left: 0%; 
-   width: 90%;
-   margin-left: 50px;
+@media (max-width: 600px) and (min-width: 450px) {
+  #text-main {
+    font-size: 3rem;
+    padding-top: 5%;
+  }
+  .subtitle {
+    font-size: 1rem;
+    text-align: center;
+    margin-top: 10px;
+    margin-left: 0%;
+
+    text-shadow: 2px 2px 8px rgba(249, 242, 242, 0.8);
+    background: rgba(31, 30, 30, 0.4);
+  }
+
+  .actions {
+    margin-left: 0%;
+  }
 }
 
- 
+@media (max-width: 800px) and (min-width: 600px) {
+  #text-main {
+    font-size: 3rem;
+    padding-top: 5%;
+  }
+  .subtitle {
+    font-size: 1rem;
+
+    margin-top: 10px;
+    margin-left: 15%;
+text-align: center;
+    text-shadow: 2px 2px 8px rgba(249, 242, 242, 0.8);
+    background: rgba(31, 30, 30, 0.4);
+  }
+
+  .actions {
+    margin-left: 0%;
+  }
 }
