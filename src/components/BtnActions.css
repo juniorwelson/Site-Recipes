@@ -1,12 +1,13 @@
 .links-action {
-  width: 50%;
+  width: fit-content;
   margin-left: 10%;
-  margin-top: -5%;
+  margin-top: 5%;
 }
 
 .links-action a {
   padding: 10px;
   margin-left: 10px;
+  margin-top: 10px;
   text-decoration: none;
   font-weight: bold;
   font-size: 1.2rem;
@@ -27,7 +28,7 @@
   transform: scale(1.2); 
 }
 .link{
-    background-color: #47db34;
+    background-color: #4f3f3f;
     border-radius: 10px;
 }
 .link:hover{
@@ -40,8 +41,8 @@
 @media (max-width:450px){
   .links-action {
   width: 70%;
-  margin-left: 20%;
-  margin-top: 15%;
+  margin-left: 10%;
+  margin-top: 80%;
 }
 
 
